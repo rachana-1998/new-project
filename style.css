@@ -552,6 +552,28 @@
   font-size: 16px;
   cursor: pointer;
 }
+.login-area{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 300px;
+    justify-content: space-around;
+}
+.login-area input{
+  width: 30%;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.login-area button{
+  width: 10%;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #d19c97;
+    color: #fff;
+}
 @media only screen and (max-width:992px){
 
     .search-product{
