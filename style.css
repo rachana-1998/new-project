@@ -23,9 +23,11 @@
   border: 1px solid #ddd;
   border-right: none;
 }
+
 .search-product input:focus {
   outline: none;
 }
+
 .search-product button {
   height: 40px;
   border-radius: 0;
@@ -358,7 +360,7 @@
   width: 80%;
   font-size: 18px;
 }
-.vender-list{
+.vender-list {
   display: flex;
   justify-content: start;
   padding-left: 5%;
@@ -366,12 +368,12 @@
   margin-bottom: 100px;
   flex-wrap: wrap;
 }
-.vender-list img{
-  width:200px;
+.vender-list img {
+  width: 200px;
   height: 200px;
   border: 1px solid #ddd;
 }
-.shop-header{
+.shop-header {
   background-color: #edf1ff;
   text-align: center;
   padding-top: 50px;
@@ -379,19 +381,19 @@
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.shop-header h1{
+.shop-header h1 {
   text-transform: uppercase;
 }
-.shop-header h3{
+.shop-header h3 {
   color: #d19c97;
   font-weight: 400;
 }
-.sort-option{
+.sort-option {
   text-align: right;
   margin-right: 25px;
   margin-bottom: 20px;
 }
-.sort-option select{
+.sort-option select {
   border: 1px solid #ddd;
   height: 35px;
   width: 100px;
@@ -403,7 +405,7 @@
   min-height: 16px;
   padding-left: 16px;
 }
-.custom-control-input{
+.custom-control-input {
   position: absolute;
   left: 0;
   z-index: -1;
@@ -411,14 +413,14 @@
   height: 16px;
   opacity: 0;
 }
-.custom-control-label{
+.custom-control-label {
   position: relative;
   margin-bottom: 0px;
   vertical-align: top;
 }
-.custom-control-label::before{
+.custom-control-label::before {
   position: absolute;
-  top:3px;
+  top: 3px;
   left: -25px;
   display: block;
   width: 16px;
@@ -426,14 +428,14 @@
   content: "";
   border: #d19c97 solid 1px;
 }
-.custom-control-input:checked ~ .custom-control-label::before{
-  border-color:#d19c97;
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #d19c97;
   background-color: #d19c97;
 }
-.custom-control-label::after{
-  position:absolute;
-  top:4px;
-  left:-24px;
+.custom-control-label::after {
+  position: absolute;
+  top: 4px;
+  left: -24px;
   display: block;
   width: 16px;
   height: 16px;
@@ -445,7 +447,7 @@
 }
 /* custom checkbox end */
 
-.custom-control-check{
+.custom-control-check {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -460,91 +462,90 @@
   padding-right: 5px;
   font-size: 13px;
 }
-.cart-details{
+.cart-details {
   margin-top: 50px;
   margin-bottom: 50px;
 }
- .cart-details table{
+.cart-details table {
   width: 100%;
 }
- .cart-details table thead{
+.cart-details table thead {
   color: #666;
   background-color: #edf1ff;
   text-align: center;
-  
 }
-.cart-details table thead th{
+.cart-details table thead th {
   padding: 15px;
 }
-.cart-details table tbody td{
+.cart-details table tbody td {
   border: 1px solid #edf1ff;
   display: table-cell;
-  padding : 15px;
+  padding: 15px;
   text-align: center;
 }
-.quantity-input{
+.quantity-input {
   display: flex;
 }
- .quantity-input button{
+.quantity-input button {
   border: 0;
   background-color: #d19c97;
   font-size: 24px;
   width: 30px;
   border-radius: 0px;
- }
- .quantity-input input{
+}
+.quantity-input input {
   width: 50px;
   border: 1px solid #ccc;
   background-color: #edf1ff;
   text-align: center;
- }
- .cart-details .custom-detail{
+}
+.cart-details .custom-detail {
   padding: 5px;
   background-color: #d19c97;
- }
- .cart-summary{
+}
+.cart-summary {
   margin-top: 50px;
   margin-left: 20px;
- }
- .cart-summary .coupon-inputs{
+}
+.cart-summary .coupon-inputs {
   display: flex;
   height: 50px;
- }
+}
 
-.coupon-inputs input{
+.coupon-inputs input {
   border: 1px solid #ddd;
   border-right: 0;
   padding-left: 20px;
   width: 60%;
 }
-.coupon-inputs button{
+.coupon-inputs button {
   background-color: #d19c97;
   border: 0;
   width: 80px;
 }
-.cart-summary-body{
+.cart-summary-body {
   border: 1px solid #ddd;
   margin-top: 50px;
   padding: 20px;
 }
-.cart-summary-item{
+.cart-summary-item {
   display: flex;
   justify-content: space-between;
 }
-.cart-summary .total-wrapper{
+.cart-summary .total-wrapper {
   border: 1px solid #ddd;
   border-top: none;
   padding: 20px;
 }
-.cart-summary .total-head{
+.cart-summary .total-head {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
 }
-.total-head h4{
+.total-head h4 {
   margin: 0;
 }
-.proceed-input button{
+.proceed-input button {
   background-color: #d19c97;
   border: 0;
   padding: 20px;
@@ -552,60 +553,58 @@
   font-size: 16px;
   cursor: pointer;
 }
-.login-area{
+.login-area {
   display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 300px;
-    justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 300px;
+  justify-content: space-around;
 }
-.login-area input{
+.login-area input {
   width: 30%;
-    height: 30px;
-    border: 1px solid #ddd;
-    padding: 10px;
+  height: 30px;
+  border: 1px solid #ddd;
+  padding: 10px;
 }
-.login-area button{
+.login-area button {
   width: 10%;
-    height: 30px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    background-color: #d19c97;
-    color: #fff;
+  height: 30px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #d19c97;
+  color: #fff;
 }
-@media only screen and (max-width:992px){
-
-    .search-product{
-      display: flex;
-    }
-    .search-product input{
-      flex: 100%;
-    }
-    .selected-product{
-      text-align: left;
-    }
-    .shop-menu ul{
-      display: block;
-    }
-    .shop-menu ul li{
-      padding: 10px;
-    }
-    .banner{
-      float: none;
-    }
-    .stay-updated{
-      padding-top: 25px;
-      padding-left: 5%;
-      padding-right: 5%;
-      padding-bottom: 40px;
-    }
-    .vender-list{
-      justify-content: start;
-      flex-wrap: wrap;
-    }
-    .footer {
-       
-      display: block;
-    }
+@media only screen and (max-width: 992px) {
+  .search-product {
+    display: flex;
+  }
+  .search-product input {
+    flex: 100%;
+  }
+  .selected-product {
+    text-align: left;
+  }
+  .shop-menu ul {
+    display: block;
+  }
+  .shop-menu ul li {
+    padding: 10px;
+  }
+  .banner {
+    float: none;
+  }
+  .stay-updated {
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+  }
+  .vender-list {
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .footer {
+    display: block;
+  }
 }
