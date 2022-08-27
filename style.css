@@ -13,30 +13,26 @@
   margin-right: 5px;
   color: #d19c97;
 }
-.search-product input {
+ .search-product input{
   width: 70%;
+  flex: 70%;
   height: 40px;
   border-radius: 0;
   padding: 10px;
-  font-size: 18px;
+  font-size: 20px;
   color: #666;
   border: 1px solid #ddd;
   border-right: none;
-}
-
-.search-product input:focus {
-  outline: none;
-}
-
-.search-product button {
+ }
+ .search-product button{
   height: 40px;
   border-radius: 0;
   border: 1px solid #ddd;
-  margin-left: -6px;
-  font-size: 15px;
+  margin-left: -3px;
+  font-size: 18px;
   color: #d19c97;
   background-color: #fff;
-}
+ }
 .selected-product {
   text-align: right;
 }
@@ -561,6 +557,14 @@
   height: 300px;
   justify-content: space-around;
 }
+.register-area {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 500px;
+  justify-content: space-around;
+}
 .login-area input {
   width: 30%;
   height: 30px;
@@ -568,6 +572,20 @@
   padding: 10px;
 }
 .login-area button {
+  width: 10%;
+  height: 30px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #d19c97;
+  color: #fff;
+}
+.register-area input {
+  width: 30%;
+  height: 30px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.register-area button {
   width: 10%;
   height: 30px;
   border: 1px solid #ddd;
